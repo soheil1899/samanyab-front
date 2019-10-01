@@ -1,0 +1,295 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~hooper/dist/hooper.css';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+
+@font-face {
+    font-family: 'IranSanse';
+    src: url('/fonts/Irans/IranSanse.eot'),
+    url('/fonts/Irans/IranSanse.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/fonts/Irans/IranSanse.ttf') format('truetype');/* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'YEKAN';
+    src:url('/fonts/Yekan/Yekan.eot');
+    src:url('/fonts/Yekan/Yekan.eot') format('embedded-opentype'),
+    url('/fonts/Yekan/Yekan.woff') format('woff'),
+    url('/fonts/Yekan/Yekan.ttf') format('truetype'),
+    url('/fonts/Yekan/Yekan.svg') format('svg');
+}
+
+body *{
+    font-family: IranSanse;
+}
+a{
+    cursor: pointer;
+}
+.font10{
+    font-size: 10px;
+}
+.font12{
+    font-size: 12px;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
+.font20{
+    font-size: 20px;
+}
+label{
+    margin: 0;
+}
+.fontYekan{
+    font-family: YEKAN;
+}
+.header{
+    width: 100%;
+    height: 550px;
+    background: url(/media/headercover.jpg);
+    background-size: cover;
+    position: relative;
+    border-bottom: 4px solid #ff5801;
+
+}
+.pointer{
+    cursor: pointer;
+}
+.widthfit{
+    width: fit-content;
+}
+.form-control-sm{
+    font-size: 12px;
+}
+
+.headersearch {
+    bottom: 15%;
+    right: 10%;
+}
+
+.backopacity {
+    background-color: rgba(14, 25, 61, 0.6);
+}
+
+.headerbutton {
+    background-color: rgba(14, 25, 61, 0.8);
+    color: #d3d3d3;
+    border: 1px solid #d3d3d3;
+    border-radius: 0;
+}
+
+.headerbutton:hover {
+    background-color: rgba(11, 20, 48, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.headerlogo {
+    position: absolute;
+    top: -15px;
+    left: 30%;
+    width: 70px;
+}
+
+
+.headermenu {
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #e0e0e0;
+    background-color: rgba(14, 25, 61, 0.8);
+    border-bottom: 3px solid #081a64;
+}
+
+.fa-bars {
+    color: white;
+}
+
+
+.sidenav {
+    width: 250px;
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: -250px;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.9s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: right;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.orageborder{
+    width: 100%;
+    height: 4px;
+    background-color: #ff5801;
+}
+.blockimg{
+    width: 100%;
+    height: 100%;
+}
+.imageblockname{
+    background-color: #fe5b00;
+    border-radius: 5px;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 14px;
+}
+.headerinput{
+    box-shadow: inset 0 0 7px #ccc;
+}
+.btn-search{
+    background-color: #31a99b;
+    color: #fff;
+}
+.btn-search:hover{
+    background-color: #3ad2c3;
+    color: #fff;
+}
+.scroolsliderimage {
+    border-radius: 15px;
+    box-shadow: 0 0 10px 3px #dadada;
+}
+.scroolsliderall{
+    background-color: #ededed;
+}
+.showallzonebtn {
+    background-color: #ff5801;
+    color: #fff;
+}
+
+.showallzonebtn:hover {
+    background-color: #ff7f1e;
+    color: #fff;
+}
+.zoneall{
+    background: linear-gradient(#d9d9d9, #f3f3f3 50%, #d9d9d9);
+}
+.homeuserzone{
+    left: 8px;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 0 10px 0 0;
+}
+.homeuserzone *{
+    color: #fff;
+}
+.indexblog{
+    background-color: #EDEDED;
+}
+.countercore i{
+    color: #323232;
+}
+.animnum{
+    color: #425f75;
+}
+.font55{
+    font-size: 55px;
+}
+.countercore{
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.7);
+    width: 100%;
+    height: 100%;
+}
+.counter{
+    width: 100%;
+    height: 100%;
+}
+.joinsection {
+    background-color: #6F6F6F;
+}
+.colorblue{
+    color: #1E2155;
+}
+.joinbtn, .joinbtn1 {
+    background-color: #FCB606;
+    color: #1E2155;
+    box-shadow: inset 0 0 5px;
+    border: none;
+}
+.joinbtn1 {
+    width: 200px;
+}
+
+.joinbtn i {
+    color: #fff;
+}
+
+.jointitle {
+    color: #e4a405;
+}
+
+.imagecounter {
+    width: 100%;
+    height: 350px;
+    background-image: url(/media/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 5px solid #6C6D71;
+}
+.joinsearch{
+    background-color: #2B496F;
+}
+.showallexpert{
+    color: #e4a405;
+}
+.abouttitle{
+    color: #2B496F;
+}
+.suggestedplace{
+    background: linear-gradient(#D1D1D1, #ffffff 60%);
+}
+.myfooter{
+    background-color: #2B496F;
+    color: #eceaea;
+}
+.namad{
+    width: 100%;
+}
