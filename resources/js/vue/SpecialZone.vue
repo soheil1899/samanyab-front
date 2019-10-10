@@ -103,15 +103,7 @@
 </script>
 
 <style scoped>
-    .blockimg:hover{
-        -webkit-filter: none; /* Safari 6.0 - 9.0 */
-        filter: none;
-    }
-.blockimg{
-    -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(40%);
-    transition: filter 0.7s ease;
-}
+
 
 
 </style>
